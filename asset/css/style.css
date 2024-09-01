@@ -1,0 +1,121 @@
+/* Common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100;
+}
+a {
+    text-decoration: none;
+}
+
+a{
+    color: #385F96;
+}
+h2 {
+    color: #385F96;
+    font-size: 48px;
+}
+h3 {
+    color: #385F96;
+    font-size: 36px;
+}
+p {
+    color: #4E4E4E;
+    font-size: 16px;
+    line-height: 24px;
+}
+.btn {
+    color: #fff;
+    background-color: #385F96;
+    padding: 14px 41px;
+    border-radius: 30px;
+    border: none;
+}
+section {
+    padding-top: 200px;
+}
+/* Common css ends */
+
+/* all css start */
+/* header or navigation start */
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+nav {
+    display: flex;
+    gap: 29px;
+}
+nav a {
+    color: #385F96;
+    font-size: 20px;
+}
+
+
+/* hero section start */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-content p {
+    padding: 30px 0;
+}
+/* hero section ends */
+
+/* work section start */
+.work-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.work-content span img {
+    padding-bottom: 28px;
+}
+
+.work-content p {
+    padding: 39px 0 29px 0;
+}
+/* work section ends */
+
+
+/* project section start */
+.project-bg-img {
+    background-image: url(/asset/images/project-bg.png);
+}
+.project-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 111px 0;
+}
+.project-content h3 {
+    padding-bottom: 28px;
+}
+
+/* project section ends */
+
+/* footer */
+.footer-bg {
+    background-color: #385F96;
+}
+.footer-container {
+    text-align: center;
+}
+.footer-container p {
+    color: #fff;
+    font-size: 18px;
+    padding: 25px 0 26px;
+}
